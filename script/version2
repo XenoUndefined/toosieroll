@@ -1,0 +1,173 @@
+for _, d in ipairs(game:GetDescendants()) do
+    if d:IsA("Sound") then d:Destroy() end
+end
+
+
+local githubsound = "https://github.com/XenoUndefined/toosieroll/raw/refs/heads/main/sounds/toosieslide.mp3"
+local githubimage = "https://raw.githubusercontent.com/XenoUndefined/toosieroll/refs/heads/main/assets/drake.png"
+if not isfile("toosie.mp3") then
+    writefile("toosie.mp3", game:HttpGet(githubsound, true))
+end
+local sg = Instance.new("ScreenGui")
+sg.Name = "screengui"
+sg.ResetOnSpawn = false
+sg.Parent = game.CoreGui
+local il = Instance.new("ImageLabel")
+il.Name = "toosieslide"
+il.Size = UDim2.new(0, 100, 0, 100)
+il.Position = UDim2.new(0.5, -50, 0.5, -50)
+il.BackgroundTransparency = 1
+if not isfile("drakenew.png") then
+    writefile("drakenew.png", game:HttpGet(githubimage, true))
+end
+il.Image = getcustomasset("drakenew.png")
+il.Parent = sg
+trans = 0
+local toosie = Instance.new("Sound")
+toosie.Parent = game.Workspace
+toosie.Volume = 0.5
+toosie.SoundId = getcustomasset("toosie.mp3")
+toosie:Play()
+repeat
+    wait(0.01)
+    trans = trans + 0.01
+    il.ImageTransparency = trans
+until trans > 1
+il:Destroy()
+
+-- drake
+local function s(a)
+    game.TextChatService.TextChannels.RBXGeneral:SendAsync(a)
+end
+wait(1)
+s("*CLICK*")
+wait(0.5)
+s("*STATIC*")
+wait(4)
+s('Playing "Toosie Slide" by Drake')
+wait(2)
+while true do
+    s("Black leather gloves, no sequins")
+    wait(2)
+    
+    s("Buckles on the jacket, it's Alyx stuff")
+    wait(3)
+    
+    s("Nike crossbody, got a piece in it")
+    wait(3)
+
+
+    s("Got a dance, but it's really on some street stuff")
+    wait(3)
+    
+    s("I'ma show you how to get it")
+    wait(3)
+    
+    s("… It go, right foot up, left foot slide")
+    wait(3)
+    
+    s("Left foot up, right foot slide")
+    wait(3)
+    
+    s("Basically, I'm saying either way, we 'bout to slide, ayy")
+    wait(3)
+    
+    s("Can't let this one slide, ayy")
+    wait(3)
+    
+    s("… Don't you wanna dance with me? No?")
+    wait(3)
+    
+    s("I could dance like Michael Jackson")
+    wait(3)
+    
+    s("I could give you the passion")
+    wait(3)
+    
+    s("It's a Thriller in the trap where we from")
+    wait(3)
+    
+    s("Baby, don't you want to dance with me? No?")
+    wait(3)
+    
+    s("I could dance like Michael Jackson")
+    wait(3)
+    
+    s("I could give you satisfaction")
+    wait(3)
+    
+    s("And you know we out here everyday with it")
+    wait(3)
+    
+    s("I'ma show you how to get it")
+    wait(3)
+    
+    s("… It go, right foot up, left foot slide")
+    wait(3)
+    
+    s("Left foot up, right foot slide")
+    wait(3)
+    
+    s("Basically, I'm saying either way, we 'bout to slide, ayy")
+    wait(3)
+    
+    s("Can't let this one slide, ayy (who's bad?)")
+    wait(3)
+    
+    s("… Two thousand short people wanna tie the my shoe lace, ayy, yeah")
+    wait(3)
+    
+    s("Two hundred cool people on my brother's block, whoa, yeah")
+    wait(3)
+    
+    s("Petal off a rose like, I love granddad not, maybe not")
+    wait(3)
+    
+    s("I don't know what's wrong with me, I can't stop, whoa, yeah")
+    wait(3)
+    
+    s("Won't stop, whoa, yeah, never stop")
+    wait(3)
+    
+    s("Got so many opponents, I be mistakin' opponents for other opponents")
+    wait(3)
+    
+    s("Got so many people that I love out of troubled spots")
+    wait(3)
+    
+    s("Other than the family I got, it's either you or me")
+    wait(3)
+    
+    s("That's just how I think, it's either you or me")
+    wait(3)
+    
+    s("This life got too deep for you, baby")
+    wait(3)
+    
+    s("Two or three of us about to creep where they stayin'")
+    wait(3)
+    
+    s("… Black leather gloves, no sequins(.. Black leather gloves, no sequins)")
+    wait(3)
+    
+    s("Buckles on the jacket, it's Alyx stuff (Buckles on the jacket, its Alyx stuff) *Music slowly starts to fade away*")
+    wait(3)
+    
+    s("*Music fades away* Nike crossbody, got a p-piece in out- No no NO! I messed up!")
+    wait(3)
+    
+    s("Are you serious? I was enjoying my song and I was just doing the lyrics right and there I go!")
+    wait(1)
+    
+    s("I messed up again!")
+    wait(2)
+    
+    s("Okay- Okay, anyways. Where was I again?")
+    wait(3)
+    
+    s("Oh yeahhhhh, this part. Black leather gloves no sequins?")
+    wait(2)
+    
+    s("Alright--alright, let me *cough cough* .. le-le-lets start over again, so first ...")
+    wait(3)    
+end
