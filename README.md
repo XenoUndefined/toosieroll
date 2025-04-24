@@ -4,4 +4,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XenoUndefined/toosier
 ```
 > [!WARNING]
 > If ur gonna use this script make sure its not above any scripts ur using it with.
+> 
 > This is cause it uses a "while true do" and objects under while true does will never nor be possible to run.
