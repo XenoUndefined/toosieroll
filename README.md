@@ -3,3 +3,8 @@
 loadstring(game:HttpGet("https://github.com/XenoUndefined/toosieroll/blob/main/script/version2.txt",true))()
 ```
 
+
+
+
+
+toosieroll lol
